@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jagjitsingh.devil.MapsActivity"
+    android:layout_height="match_parent"
+
+
+    android:layout_width="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <fragment
+
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/a"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b"
+                android:layout_below="@+id/a"
+                android:layout_marginTop="20dp"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/c"
+                android:layout_below="@+id/b"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/d"
+                android:layout_below="@+id/c"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/e"
+                android:layout_below="@+id/d"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:layout_below="@+id/e"
+                android:id="@+id/f"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/g"
+                android:layout_below="@+id/f"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/h"
+                android:layout_below="@+id/g"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/i"
+                android:layout_below="@+id/h"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/j"
+                android:layout_below="@+id/i"
+                android:layout_marginTop="20dp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
+</RelativeLayout>
+
+

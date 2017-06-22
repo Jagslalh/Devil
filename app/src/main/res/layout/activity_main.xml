@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jagjitsingh.devil.MainActivity" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/klo"
+        android:scaleType="centerCrop"
+        android:layout_alignParentStart="true" />
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:hint="Email Or Phone No..."
+        android:textColorHint="@android:color/black"
+        android:id="@+id/LoginEmailorPhone"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="40dp"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:typeface="normal"
+        android:textColor="@android:color/white"
+        android:textStyle="normal"
+        android:textAlignment="viewStart"/>
+
+     <EditText
+         android:layout_width="310sp"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/LoginEmailorPhone"
+         android:hint="Password.."
+         android:textColorHint="@android:color/black"
+         android:fontFamily="cursive"
+         android:cursorVisible="false"
+         android:layout_marginLeft="40dp"
+         android:id="@+id/editText" />
+
+     <Button
+         android:layout_width="350dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/a"
+         android:layout_below="@+id/editText"
+         android:text="LOGIN"
+         android:fontFamily="cursive"
+         android:textStyle="bold"
+         android:textSize="20sp"
+         android:id="@+id/LoginButton"
+         android:layout_marginLeft="15dp"
+         android:focusableInTouchMode="true"/>
+
+  <TextView
+         android:layout_width="140dp"
+         android:layout_height="wrap_content"
+         android:text="Get Help Signing In"
+         android:id="@+id/textView"
+         android:layout_alignBaseline="@+id/button"
+         android:layout_alignBottom="@+id/button"
+         android:layout_toEndOf="@+id/button"
+         android:layout_alignParentEnd="true"
+         android:layout_marginLeft="15dp"
+         android:textStyle="bold"
+         android:fontFamily="cursive"
+         android:textColor="@android:color/black"/>
+
+     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:id="@+id/I1"
+        android:layout_below="@+id/button"/>
+
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Register new Account"
+         android:fontFamily="cursive"
+         android:textColor="@android:color/black"
+         android:background="@android:color/transparent"
+         android:layout_marginTop="28dp"
+         android:id="@+id/button2"
+         android:layout_below="@+id/I1"
+         android:layout_centerHorizontal="true" />
+
+     <Button
+      android:layout_width="140dp"
+      android:layout_height="wrap_content"
+      android:fontFamily="cursive"
+      android:background="@android:color/transparent"
+      android:textColor="@android:color/black"
+      android:textStyle="bold"
+      android:layout_below="@+id/LoginButton"
+      android:layout_marginTop="15dp"
+      android:layout_marginLeft="40dp"
+      android:text="Forgot Password.?"
+      android:id="@+id/button" />
+
+
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="View"
+      android:id="@+id/kl"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentStart="true" />
+
+     <Button
+         android:text="Button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentStart="true"
+         android:layout_marginStart="12dp"
+         android:layout_marginTop="12dp"
+         android:id="@+id/jags"
+
+         />
+
+
+ </RelativeLayout>
+ </ScrollView>
+
+</RelativeLayout>
